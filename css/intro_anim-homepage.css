@@ -1,0 +1,339 @@
+
+
+/* -----------------------------------------------------------------------------
+
+HOMAGE ANIM 
+
+----------------------------------------------------------------------------- */
+
+.wrapper-home {
+background-image: url(../images/imghome/1.jpg);
+overflow: hidden;
+}
+
+.bkg-anim-homepage, .wrapper-home, .bkg-anim-img1, .bkg-anim-img2, .bkg-anim-img3, .bkg-anim-img4, .bkg-anim-img5, .bkg-anim-img6, .bkg-anim-img7, .bkg-anim-img8, .bkg-anim-img9, .bkg-anim-img10, .bkg-anim-img11, .bkg-anim-img12, .bkg-anim-img13, .bkg-anim-img14, .bkg-anim-img15, .bkg-anim-img16, .bkg-anim-img17 {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.bkg-anim-img1, .bkg-anim-img2, .bkg-anim-img3, .bkg-anim-img4, .bkg-anim-img5, .bkg-anim-img6, .bkg-anim-img7, .bkg-anim-img8, .bkg-anim-img9, .bkg-anim-img10, .bkg-anim-img11, .bkg-anim-img12, .bkg-anim-img13, .bkg-anim-img14, .bkg-anim-img15, .bkg-anim-img16, .bkg-anim-img17 {
+opacity: 0;
+}
+
+.bkg-anim-homepage {
+background-image: url(../images/imghome/1.jpg);
+
+}
+
+.open-homepage {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background: #fff;
+z-index: 10;
+-webkit-animation:movehome .6s cubic-bezier(.785,.135,.15,.86) .5s 1 forwards;
+-moz-animation:movehome .6s cubic-bezier(.785,.135,.15,.86) .5s 1 forwards;
+-ms-animation:movehome .6s cubic-bezier(.785,.135,.15,.86) .5s 1 forwards;
+-o-animation:movehome .6s cubic-bezier(.785,.135,.15,.86) .5s 1 forwards;
+animation:movehome .6s cubic-bezier(.785,.135,.15,.86) .5s 1 forwards;
+}
+
+@-webkit-keyframes movehome
+{
+0%{-webkit-transform:translate(0,0);}
+100%{-webkit-transform:translate(0,-100%);}
+}
+
+@-moz-keyframes movehome
+{
+0%{-moz-transform:translate(0,0);}
+100%{-moz-transform:translate(0,-100%);}
+}
+
+.bkg-anim-img1 {
+background-image: url(../images/imghome/1.jpg);
+-webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.1s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.1s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.1s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.1s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.1s 1 normal;
+}
+
+.bkg-anim-img2 {
+background-image: url(../images/imghome/2.jpg);
+-webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.5s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.5s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.5s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.5s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.5s 1 normal;
+}
+
+.bkg-anim-img3 {
+background-image: url(../images/imghome/3.jpg);
+-webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.9s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.9s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.9s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.9s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 0.9s 1 normal;
+}
+
+.bkg-anim-img4 {
+background-image: url(../images/imghome/4.jpg);
+-webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.3s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.3s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.3s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.3s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.3s 1 normal;
+}
+
+.bkg-anim-img5 {
+background-image: url(../images/imghome/5.jpg);
+-webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.7s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.7s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.7s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.7s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 1.7s 1 normal;
+}
+
+.bkg-anim-img6 {
+background-image: url(../images/imghome/6_2.jpg);
+-webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.1s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.1s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.1s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.1s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.1s 1 normal;
+}
+
+.bkg-anim-img7 {
+background-image: url(../images/imghome/7_2.jpg);
+    -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.5s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.5s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.5s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.5s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.5s 1 normal;
+}
+
+.bkg-anim-img8 {
+background-image: url(../images/imghome/8_2.jpg);
+    -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.9s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.9s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.9s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.9s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 2.9s 1 normal;
+}
+
+.bkg-anim-img9 {
+background-image: url(../images/imghome/9.jpg);
+    -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.3s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.3s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.3s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.3s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.3s 1 normal;
+}
+
+.bkg-anim-img10 {
+background-image: url(../images/imghome/10.jpg);
+    -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.7s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.7s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.7s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.7s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 3.7s 1 normal;
+}
+
+.bkg-anim-img11 {
+background-image: url(../images/imghome/11.jpg);
+        -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.1s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.1s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.1s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.1s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.1s 1 normal;
+}
+
+.bkg-anim-img12 {
+background-image: url(../images/imghome/12.jpg);
+        -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.5s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.5s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.5s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.5s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.5s 1 normal;
+}
+
+.bkg-anim-img13 {
+background-image: url(../images/imghome/13.jpg);
+
+        -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.9s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.9s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.9s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.9s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 4.9s 1 normal;
+}
+
+.bkg-anim-img14 {
+background-image: url(../images/imghome/14.jpg);
+
+        -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.3s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.3s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.3s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.3s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.3s 1 normal;
+}
+
+.bkg-anim-img15 {
+background-image: url(../images/imghome/15.jpg);
+
+        -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.7s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.7s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.7s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.7s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 5.7s 1 normal;
+}
+
+.bkg-anim-img16 {
+background-image: url(../images/imghome/16.jpg);
+
+        -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.1s 1 normal;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.1s 1 normal;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.1s 1 normal;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.1s 1 normal;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.1s 1 normal;   
+}
+
+.bkg-anim-img17 {
+background-image: url(../images/imghome/17.jpg);
+
+        -webkit-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.5s 1 forwards;
+-moz-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.5s 1 forwards;
+-ms-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.5s 1 forwards;
+-o-animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.5s 1 forwards;
+animation:AnimHome .4s cubic-bezier(.785,.135,.15,.86) 6.5s 1 forwards;
+}
+
+.bkg-cover {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0%;
+left: 0%;
+overflow: hidden;
+display: inline-table;
+background: #fff;
+}
+
+.bkg-cover h1 {
+font-family: "AVM";
+vertical-align: middle;
+display: table-cell;
+text-align: center;
+font-size: 4vh;
+text-transform: uppercase;
+color: #000;
+width: 100%;
+height: 100%;
+background: #fff;
+}
+
+.bkg-touch, .bkg-sight, .bkg-hearing, .bkg-taste, .bkg-imagination, .bkg-guide, .bkg-perfect, .bkg-fragrance {
+opacity: 0;
+}
+
+.bkg-touch { 
+-webkit-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 1.2s 1 forwards;
+-moz-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 1.2s 1 forwards;
+-ms-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 1.2s 1 forwards;
+-o-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 1.2s 1 forwards;
+animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 1.2s 1 forwards;
+}
+
+.bkg-sight { 
+-webkit-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2s 1 forwards;
+-moz-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2s 1 forwards;
+-ms-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2s 1 forwards;
+-o-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2s 1 forwards;
+animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2s 1 forwards;
+}
+
+.bkg-hearing { 
+-webkit-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2.6s 1 forwards;
+-moz-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2.6s 1 forwards;
+-ms-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2.6s 1 forwards;
+-o-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2.6s 1 forwards;
+animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 2.6s 1 forwards;
+}
+
+.bkg-taste { 
+-webkit-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 3.6s 1 forwards;
+-moz-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 3.6s 1 forwards;
+-ms-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 3.6s 1 forwards;
+-o-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 3.6s 1 forwards;
+animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 3.6s 1 forwards;
+}
+
+.bkg-imagination { 
+-webkit-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 4.4s 1 forwards;
+-moz-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 4.4s 1 forwards;
+-ms-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 4.4s 1 forwards;
+-o-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 4.4s 1 forwards;
+animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 4.4s 1 forwards;
+}
+
+.bkg-guide { 
+-webkit-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 5.2s 1 forwards;
+-moz-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 5.2s 1 forwards;
+-ms-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 5.2s 1 forwards;
+-o-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 5.2s 1 forwards;
+animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 5.2s 1 forwards;
+}
+
+.bkg-perfect { 
+-webkit-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 6s 1 forwards;
+-moz-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 6s 1 forwards;
+-ms-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 6s 1 forwards;
+-o-animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 6s 1 forwards;
+animation:AnimHome .8s cubic-bezier(.785,.135,.15,.86) 6s 1 forwards;
+}
+
+.bkg-fragrance { 
+-webkit-animation:AnimHome 4s cubic-bezier(.785,.135,.15,.86) 6.8s 1 forwards;
+-moz-animation:AnimHome 4s cubic-bezier(.785,.135,.15,.86) 6.8s 1 forwards;
+-ms-animation:AnimHome 4s cubic-bezier(.785,.135,.15,.86) 6.8s 1 forwards;
+-o-animation:AnimHome 4s cubic-bezier(.785,.135,.15,.86) 6.8s 1 forwards;
+animation:AnimHome 4s cubic-bezier(.785,.135,.15,.86) 6.8s 1 forwards;
+}
+
+@-webkit-keyframes AnimHome
+{
+0%{opacity: 0;}
+1%{opacity: 1;}
+100%{opacity: 1;}
+}
+
+@-moz-keyframes AnimHome
+{
+0%{opacity: 0;}
+1%{opacity: 1;}
+100%{opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

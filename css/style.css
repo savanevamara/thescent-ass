@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+.scent_title {
+left: 50%;
+position: absolute;
+bottom: 10%;
+font-size: 3vw;
+/*color:#000;*/
+transform: translate(-50%, -50%);
+text-align: center;
+line-height: 3rem;
+width: 55vw;
+}
+
+.scent_title_line {
+position: relative;
+height: 1px;
+background: #000;
+-webkit-animation:animate_line .6s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-moz-animation:animate_line .6s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-ms-animation:animate_line .6s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-o-animation:animate_line .6s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+animation:animate_line .6s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+}
+
+.scent_title p:first-child span {
+-webkit-animation:moveTop 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-moz-animation:moveTop 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-ms-animation:moveTop 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-o-animation:moveTop 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+animation:moveTop 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+text-transform: uppercase;
+letter-spacing: 3vw;
+display: block;
+}
+
+.scent_title p:last-child span {
+-webkit-animation:moveBottom 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-moz-animation:moveBottom 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-ms-animation:moveBottom 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+-o-animation:moveBottom 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+animation:moveBottom 1.2s cubic-bezier(.785,.135,.15,.86) 0s 1 normal;
+display: block;
+}
+
+.scent_title p {
+display: block;
+overflow: hidden;
+}
+
+@-webkit-keyframes animate_line 
+{
+0% {width: 0px;}
+100% {width: 100%}
+}
+
+@-moz-keyframes animate_line 
+{
+0% {width: 0px;}
+100% {width: 100%}
+}
+
+@-webkit-keyframes moveTop
+{
+0%{-webkit-transform:translate(0,100px);}
+100%{-webkit-transform:translate(0,0px);}
+}
+
+@-moz-keyframes moveTop
+{
+0%{-moz-transform:translate(0,100px);}
+100%{-moz-transform:translate(0,0px);}
+}
+
+@-webkit-keyframes moveBottom
+{
+0%{-webkit-transform:translate(0,-100px);}
+100%{-webkit-transform:translate(0,0px);}
+}
+
+@-moz-keyframes moveBottom
+{
+0%{-moz-transform:translate(50px,-100px);}
+100%{-moz-transform:translate(0,0px);}
+}
+
+@keyframes moveBottom
+{
+0%{transform:translate(0,-100px);}
+100%{transform:translate(0,0px);}
+}
+

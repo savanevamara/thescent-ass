@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- Startup configuration -->
+<link rel="manifest" href="manifest.json">
+
+<!-- Fallback application metadata for legacy browsers -->
+<meta name="application-name" content="Store Finder">
+<link rel="icon" sizes="16x16 32x32 48x48" href="lo_def.ico">
+<link rel="icon" sizes="512x512" href="hi_def.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,200' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style_before.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/intro.css">
+<link rel="stylesheet" href="css/validate_stylenew.css">
+<link rel="stylesheet" href="css/intro_anim-homepage.css">
+
+<title>The Scent</title>
+
+
+
+</head>
+<body>
+
+<div id="intro">
+	
+<div class="wrapper-home">
+<div class="open-homepage"></div>
+<div class="bkg-anim-homepage"></div>
+<div class="bkg-anim-img1"></div>
+<div class="bkg-anim-img2"></div>
+<div class="bkg-anim-img3"></div>
+<div class="bkg-anim-img4"></div>
+<div class="bkg-anim-img5"></div>
+<div class="bkg-anim-img6"></div>
+<div class="bkg-anim-img7"></div>
+<div class="bkg-anim-img8"></div>
+<div class="bkg-anim-img9"></div>
+<div class="bkg-anim-img10"></div>
+<div class="bkg-anim-img11"></div>
+<div class="bkg-anim-img12"></div>
+<div class="bkg-anim-img13"></div>
+<div class="bkg-anim-img14"></div>
+<div class="bkg-anim-img15"></div>
+<div class="bkg-anim-img16"></div>
+<div class="bkg-anim-img17"></div>
+<div class="transition_box">
+<div class="bkg-cover bkg-touch">
+<h1 class=" bkg-touch">touch</h1>
+</div> 
+<div class="bkg-cover bkg-sight">
+<h1 class=" bkg-sight">sight</h1>
+</div>
+<div class="bkg-cover bkg-hearing">
+<h1 class=" bkg-hearing">hearing</h1>
+</div>
+<div class="bkg-cover bkg-taste">
+<h1 class=" bkg-taste">taste</h1>
+</div>
+<div class="bkg-cover bkg-imagination">
+<h1 class=" bkg-imagination">and imagination</h1>
+</div>
+<div class="bkg-cover bkg-guide">
+<h1 class=" bkg-guide">can guide you</h1>
+</div>
+<div class="bkg-cover bkg-perfect">
+<h1 class=" bkg-perfect">to the perfect</h1>
+</div>
+<div class="bkg-cover bkg-fragrance">
+<h1 class=" bkg-fragrance">fragrance</h1>
+</div>
+</div>   
+</div>   
+
+
+
+
+</div>
+<div id="xp_lieux_lumiere">
+<div id="xp_lieux_assombri"></div>
+<div id="jnQuit"></div>
+<div id="jour_nuit">
+<div id="jnSlider"></div>
+<div id="jour"></div>
+<div id="nuit"></div>
+</div>
+</div>
+<div id="validate"></div>
+<div id="transition"></div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/dat.gui.min.js"></script>
+<script src="js/JSONLoader.js"></script>
+<script src="js/jqueryMobile.js"></script>
+<script src="js/tween_min.js"></script>
+<script src="js/algoCom.js"></script>
+<script src="js/init_XPs.js"></script>
+
+<div id="ressources">
+<div id="clickbut">
+<p class="clic" onclick="start();">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="64" y="60" fill="#FFFFFF" width="7" height="7"/>
+<rect x="57" y="67" fill="#FFFFFF" width="7" height="7"/>
+<rect x="57" y="53" fill="#FFFFFF" width="7" height="7"/>
+</svg>   
+</p>
+</div>
+<div id="resCol"><div class="transition_box">
+<div class="align_grid_transition">
+<div class="grid_info">
+<div class="align_tuto">
+<div class=" info_couleur"></div>
+<p>Drag up and down to select your colour. Drag right and left to select your intensity.</p>
+</div>
+</div>
+<div class="grid_transition">
+<div class="grid_txt">
+<h2 class="scent_transition_title">
+<p><span>- 2 / 5 -</span></p>
+<p><span>what is your</span></p>
+<p><span>fragrance's</span></p>
+<p><span>true color?</span></p>
+</h2>
+</div>  
+</div>  
+</div>
+<p class="clic_info">
+<a class="active-info" onclick="active_info()">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="58.6" y="53.5" fill="#FFFFFF" width="10" height="34.5"/>
+<rect x="55" y="49.1" fill="#FFFFFF" width="13.6" height="5.1"/>
+<rect x="58.6" y="39" fill="#FFFFFF" width="10" height="5.1"/>
+<rect x="55.2" y="82.9" fill="#FFFFFF" width="16.8" height="5.1"/>
+</svg>
+</a>
+</p>
+</div>
+</div>
+
+<!-- TEXT TRANSITION XP LUMIERE -->  
+
+<div id="reslieu"><div class="transition_box">
+<div class="align_grid_transition">
+<div class="grid_info">
+<div class="align_tuto">
+<div class="info_lumiere"></div>
+<p>Select your place and drag the cursor to your ideal light intensity.</p>
+</div>
+</div>
+<div class="grid_transition">
+<div class="grid_txt">
+<h2 class="scent_transition_title">
+<p><span>- 5 / 5 -</span></p>
+<p><span>what ambiance</span></p>
+<p><span>will surround</span></p>
+<p><span>you?</span></p>
+</h2>
+</div>  
+</div>  
+</div>
+<p class="clic_info">
+<a class="active-info" onclick="active_info()">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="58.6" y="53.5" fill="#FFFFFF" width="10" height="34.5"/>
+<rect x="55" y="49.1" fill="#FFFFFF" width="13.6" height="5.1"/>
+<rect x="58.6" y="39" fill="#FFFFFF" width="10" height="5.1"/>
+<rect x="55.2" y="82.9" fill="#FFFFFF" width="16.8" height="5.1"/>
+</svg>
+</a>
+</p>
+</div>     
+</div>
+
+<!-- TEXT TRANSITION XP SOUND -->  
+
+<div id="resSon"><div class="transition_box">
+<div class="align_grid_transition">
+<div class="grid_info">
+<div class="align_tuto">
+<div class="info_son"></div>
+<p>Simply rotate your phone to switch to another tune.</p>
+</div>
+</div>
+<div class="grid_transition">
+<div class="grid_txt">
+<h2 class="scent_transition_title">
+<p><span>- 4 / 5 -</span></p>
+<p><span>what notes</span></p>
+<p><span>will you leave</span></p>
+<p><span>behind?</span></p>
+</h2>
+</div>  
+</div>  
+</div>
+<p class="clic_info">
+<a class="active-info" onclick="active_info()">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="58.6" y="53.5" fill="#FFFFFF" width="10" height="34.5"/>
+<rect x="55" y="49.1" fill="#FFFFFF" width="13.6" height="5.1"/>
+<rect x="58.6" y="39" fill="#FFFFFF" width="10" height="5.1"/>
+<rect x="55.2" y="82.9" fill="#FFFFFF" width="16.8" height="5.1"/>
+</svg>
+</a>
+</p>
+</div>     
+</div>
+
+<!-- TEXT TRANSITION XP TEXTURE -->    
+
+<div id="resText"><div class="transition_box">
+<div class="align_grid_transition">
+<div class="grid_info">
+<div class="align_tuto">
+<div class="info_texture"></div>
+<p>Drag the wheel to choose your texture and Touch the texture to anim.</p>
+</div>
+</div>
+<div class="grid_transition">
+<div class="grid_txt">
+<h2 class="scent_transition_title">
+<p><span>- 1 / 5 -</span></p>
+<p><span>what would your</span></p>
+<p><span>fragrance</span></p>
+<p><span>feel like?</span></p>
+</h2>
+</div>  
+</div>  
+</div>
+<p class="clic_info">
+<a class="active-info" onclick="active_info()">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="58.6" y="53.5" fill="#FFFFFF" width="10" height="34.5"/>
+<rect x="55" y="49.1" fill="#FFFFFF" width="13.6" height="5.1"/>
+<rect x="58.6" y="39" fill="#FFFFFF" width="10" height="5.1"/>
+<rect x="55.2" y="82.9" fill="#FFFFFF" width="16.8" height="5.1"/>
+</svg>
+</a>
+</p>
+</div>
+</div>
+
+<!-- TEXT TRANSITION XP GOUT -->    
+
+<div id="resGout"><div class="transition_box">
+<div class="align_grid_transition">
+<div class="grid_info">
+<div class="align_tuto">
+<div class="info_gout"></div>
+<p>Keep  the word of your choice pressed to let the taste speak.</p>
+</div>
+</div>   
+<div class="grid_transition">
+<div class="grid_txt">
+<h2 class="scent_transition_title">
+<p><span>- 3 / 5 -</span></p>
+<p><span>what will be</span></p>
+<p><span>your fragrance's</span></p>
+<p><span>lasting savor?</span></p>
+</h2>
+</div>  
+</div>  
+</div>
+<p class="clic_info">
+<a class="active-info" onclick="active_info()">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="58.6" y="53.5" fill="#FFFFFF" width="10" height="34.5"/>
+<rect x="55" y="49.1" fill="#FFFFFF" width="13.6" height="5.1"/>
+<rect x="58.6" y="39" fill="#FFFFFF" width="10" height="5.1"/>
+<rect x="55.2" y="82.9" fill="#FFFFFF" width="16.8" height="5.1"/>
+</svg>
+</a>
+</p>      
+<p class="clic">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="64" y="60" fill="#FFFFFF" width="7" height="7"/>
+<rect x="57" y="67" fill="#FFFFFF" width="7" height="7"/>
+<rect x="57" y="53" fill="#FFFFFF" width="7" height="7"/>
+</svg>   
+</p>
+</div>    </div>
+
+<div id="resSexe"><div class="transition_box">
+<div class="align_grid_transition">    
+<div class="grid_transition">
+<div class="grid_txt">
+<h2 class="scent_transition_title">
+<p><span>- O - </span></p>
+<p><span>Draw</span></p>
+<p><span>your</span></p>
+<p><span>gender</span></p>
+</h2>
+</div>  
+</div>  
+</div>
+<p class="clic">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve">
+<rect width="127" height="127"/>
+<rect x="64" y="60" fill="#FFFFFF" width="7" height="7"/>
+<rect x="57" y="67" fill="#FFFFFF" width="7" height="7"/>
+<rect x="57" y="53" fill="#FFFFFF" width="7" height="7"/>
+</svg>   
+</p>
+</div>    </div>
+
+<!-- TEXT VALIDATE YOUR ... ( YES / NO ) -->    
+
+<div id="valYN"><div class="transition_box">
+<div class="align_grid_transition">    
+<div class="grid_transition">
+<div class="grid_txt">
+<h2 class="scent_transition_title">
+<p><span id="nb">-x-</span></p>
+<p><span>validate</span></p>
+<p><span>your</span></p>
+<p><span id="xp_txt"><!-- color/loc/sound/ --></span></p>
+</h2>
+</div>  
+</div>  
+</div>
+<p class="validate_yes" >
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve" onclick="validate_yes()">
+<rect width="127" height="127"/>
+<rect x="53" y="70" fill="#FFFFFF" width="7" height="7"/>
+<rect x="60" y="63" fill="#FFFFFF" width="7" height="7"/>
+<rect x="46" y="63" fill="#FFFFFF" width="7" height="7"/>
+<rect x="67" y="56" fill="#FFFFFF" width="7" height="7"/>
+<rect x="74" y="49" fill="#FFFFFF" width="7" height="7"/>
+</svg> 
+</p>
+<p class="validate_no" >
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127 127" enable-background="new 0 0 127 127" xml:space="preserve" onclick="validate_no()">
+<rect x="4" y="4" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" width="119" height="119"/>
+<rect x="60" y="61" width="7" height="7"/>
+<rect x="67" y="54" width="7" height="7"/>
+<rect x="53" y="68" width="7" height="7"/>
+<rect x="46" y="75" width="7" height="7"/>
+<rect x="67" y="68" width="7" height="7"/>
+<rect x="74" y="75" width="7" height="7"/>
+<rect x="53" y="54" width="7" height="7"/>
+<rect x="46" y="47" width="7" height="7"/>
+<rect x="74" y="47" width="7" height="7"/>
+</svg>
+</p>
+</div> 
+</div>
+<div id="XP_gout">
+<div id="home"></div>
+<div id="Sweety">
+<div class="diapo d1"></div>
+<div class="diapo d2"></div>
+<div class="diapo d3"></div>
+<div class="diapo d4"></div>
+<div class="diapo d5"></div>
+<div class="diapo d6"></div><div class="diapo d1"></div>
+</div>
+<div id="Sour">
+<div class="diapo d1"></div>
+<div class="diapo d2"></div>
+<div class="diapo d3"></div>
+<div class="diapo d4"></div>
+<div class="diapo d5"></div>
+<div class="diapo d1"></div>
+</div>
+<div id="Salty">
+<div class="diapo d1"></div>
+<div class="diapo d2"></div>
+<div class="diapo d3"></div>
+<div class="diapo d4"></div>
+<div class="diapo d5"></div>
+<div class="diapo d1"></div>
+</div>
+<div id="Bitter">
+<div class="diapo d1"></div>
+<div class="diapo d2"></div>
+<div class="diapo d3"></div>
+<div class="diapo d4"></div>
+<div class="diapo d5"></div>
+<div class="diapo d6"></div><div class="diapo d1"></div>
+</div>
+<ul class="taste_menu" id="tast_menu">
+<li data-menuanchor="secondPage" id="link_sweety"></li>
+<li data-menuanchor="3rdPage" id="link_sours"></li>
+<li data-menuanchor="4thpage" id="link_salty"></li>
+<li data-menuanchor="lastPage" id="link_bitter"></li>
+</ul>
+</div>
+<div id="Sexe">
+<canvas id="drawing"></canvas>
+<canvas id="buffer"></canvas>
+<div id="gender"></div>
+</div>
+<div id="pageReco">
+<div id="cd-nav" class="cd-nav">
+<div class="cd-navigation-wrapper">
+<a href="#cd-nav" class="cd-nav-trigger" style="position:fixed;width:50px;height:50px;top:0;left:0;"><img src="images/croix.svg" alt="fermer" width="100%" height="100%"/></a>
+<div class="first-bag">
+<div id="first-scent-img-preview" class="bfsi">
+<p><img src="images/reco/amor.jpeg" width="100%" height="100%" /></p>
+<ul class="central">
+<li id="first-scent-name-preview" class="fsn">amor amor</li>
+<li id="first-scent-house-preview" class="fsh">Cacharel</li>
+</ul>
+<p class="central">&hearts; | <b id="first-scent-prize-preview" class="fsp">43</b>€ <i>free returns</i></p>
+</div>
+<div class="select-option">
+<select id="first-scent-capacity-preview" name="ml" class="ml">
+<option value="50ml">50ml</option>
+<option value="90ml">90ml</option>
+</select>
+<select name="numbers" class="numbers">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>      
+</select>    
+</div>     
+</div>
+<div class="second-bag">
+<div id="second-scent-img-preview" class="bssi">
+<p><img src="images/reco/untilted.jpg" width="100%" height="100%" /></p>       
+<ul class="central">
+<li id="second-scent-name-preview" class="ssn">untilted</li>
+<li id="second-scent-house-preview" class="ssh">Maison Martin Margiela</li>
+</ul>
+<p class="central">&hearts; | <b id="second-scent-prize-preview" class="fsp">43</b>€ <i>free returns</i></p>
+</div>    
+<div class="select-option">
+<select id="second-scent-capacity-preview" name="ml" class="ml">
+<option value="50ml">50ml</option>
+<option value="90ml">90ml</option>
+</select>
+<select name="numbers" class="numbers">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>      
+</select>    
+</div>      
+</div>
+<div class="third-bag">
+<div id="third-scent-img-preview" class="btsi">
+<p><img src="images/reco/flowerbomb.jpg" width="100%" height="100%" /></p>
+<ul class="central">
+<li id="third-scent-name-preview" class="tsn">flowerbomb</li>
+<li id="third-scent-house-preview" class="tsh">Viktor & Rolf</li>
+</ul>
+<p class="central">&hearts; | <b id="third-scent-prize-preview" class="tsp">62</b>€ <i>free returns</i></p>       
+</div>
+<div class="select-option">
+<select id="third-scent-capacity-preview" name="ml" class="ml">
+<option value="50ml">50ml</option>
+<option value="90ml">90ml</option>
+</select>
+<select name="numbers" class="numbers">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>      
+</select>    
+</div> 
+<div class="link-add-bag">
+<div class="shopnow-first">
+<div class="shop-box">
+<div class="shopnow-txt"><p><input type="submit" value="add to bag"></p></div>
+<div class="icon-next"></div>
+</div>      
+</div>            
+</div> 
+</div>
+</div>    
+</div>
+<div class="ham-menu">
+<div class="burger">
+<a class="burger-clic">
+<button class="hamburger hamburger-htx"  onclick="active_burger()">
+<span></span>
+</button>
+</a>
+</div>
+<div class="burger-title">
+<p>The Scent</p>
+</div>
+<div class="burger-buy">
+<a href=""></a>
+</div>
+<div class="menu_line">
+<div class="vertical_menu">
+<ul>
+<li><h1><a href="">news</a></h1></li>  
+<li><h1><a href="">diagnosis</a></h1></li>
+<li><h1><a href="">expertise</a></h1></li>
+<li><h1><a href="">e-corners</a></h1></li>
+</ul>
+<ul class="diag">
+<li><h1><a href="javascript:" onclick="saveDiagnostic()">save your diagnosis</a></h1></li>  
+<li><h1><a href="">retry your diagnosis</a></h1></li>
+</ul>
+<ul class="share-buttons">
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><p><img src="images/simple_icons_black/Facebook.png"></p></a></li>
+<li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><p><img src="images/simple_icons_black/Twitter.png"></p></a></li>
+<li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><p><img src="images/simple_icons_black/Google+.png"></p></a></li>
+<li><a href="http://pinterest.com/pin/create/button/?url=&description=" target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&description=' +  encodeURIComponent(document.title)); return false;"><p><img src="images/simple_icons_black/Pinterest.png"></p></a></li>
+<li><a href="mailto:?subject=&body=:%20" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><p><img src="images/simple_icons_black/Email.png"></p></a></li>
+</ul>     
+</div> 
+</div>
+</div>
+<div class="bkg-auragramme" id="auragramme">
+<div class="moodbloc">
+<div class="mood">
+<div class="vertical-mood">
+<h1>your olfactory mood</h1>
+<p class="olfactory"><span id="first-family">adjectif</span> & <span id="second-family">adjectif</span></p>
+<p id="personal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed malesuada lorem.</p>
+</div>
+</div>
+<div class="discover">
+<a class="active-aura" onclick="active_aura()">
+<div class="link-aura"><p>discover your olfactory auragram</p></div> 
+<div class="icon-next" style="width:30%;"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="wrapper-reco">
+<div class="podium" id="direct-podium">
+<div class="first-scent">
+<ul>
+<li id="first-scent-name" class="fsn" style="padding-left: 50px;">amor amor</li>
+<li id="first-scent-house" class="fsh">Cacharel</li>
+</ul>
+<p>&hearts; | <b id="first-scent-prize" class="fsp">43</b>€ <i>free returns</i></p>
+<div id="first-scent-img" class="fsi">
+<p><img src="images/reco/amor.jpeg" width="900px" height="900px;" /></p>
+</div>
+<div class="link-shop">
+<div class="shopnow-first" style="width:100%;left:0;">
+<a href="#cd-nav" class="cd-nav-trigger shop-box">
+<div class="shopnow-txt"><p>SHOP NOW</p></div>
+<div class="icon-next"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="second-scent">
+<ul>
+<li id="second-scent-name" class="ssn" style="padding-left: 50px;">untilted</li>
+<li id="second-scent-house" class="ssh">Maison Martin Margiela</li>
+</ul>
+<p>&hearts; | <b id="second-scent-prize" class="ssp">43</b>€ <i>free returns</i></p>
+<div id="second-scent-img" class="ssi">
+<p><img src="images/reco/untilted.jpg" width="900px" height="900px;" /></p>
+</div>
+<div class="link-shop">
+<div class="shopnow-second" style="width:100%;left:0;">
+<a href="#cd-nav" class="cd-nav-trigger shop-box">
+<div class="shopnow-txt"><p>SHOP NOW</p></div>
+<div class="icon-next"></div>  
+</a>
+</div>
+</div>
+</div> 
+<div class="third-scent">
+<ul>
+<li id="third-scent-name" class="tsn" style="padding-left: 50px;">flowerbomb</li>
+<li id="third-scent-house" class="tsh">Viktor & Rolf</li>
+</ul>
+<p>&hearts; | <b id="third-scent-prize" class="tsp">62</b>€ <i>free returns</i></p>
+<div id="third-scent-img" class="tsi">
+<p><img src="images/reco/flowerbomb.jpg" width="900px" height="900px;" />  </p>
+</div>
+<div class="link-shop">
+<div class="shopnow-third" style="width:100%;left:0;">
+<a href="#cd-nav" class="cd-nav-trigger shop-box">
+<div class="shopnow-txt"><p>SHOP NOW</p></div>
+<div class="icon-next"></div>
+</a>
+</div>
+</div>
+</div> 
+</div><!-- end of podium --> 
+<h1 class="test-choose"> test & choose</h1>
+<div class="others-box">
+<div id="others-reco-one">
+<div class="oneandone"></div>    
+<p>1.<b class="shop">Shop</b> fragrance(s)<br>2.<b class="shop">Test</b> it with its scent sceal<br>3.<b class="shop">love it or send it back to free&#42;</b></p>
+<a href="#" class="shopnow">
+<div class="shop-box">    
+<div class="shopnow-txt"><p><input type="submit" value="shop now"></p></div>
+<div class="icon-next"></div>
+</div>    
+</a>
+<a href="" class="condi">&#42; see conditions</a>
+</div>
+<div id="others-reco-two">
+<div class="oneandthree"></div>    
+<p>Need time to evaluate<br>our recommendations and find the one?<br><b class="shop">Order your tailor-made sampling box&#42;</b></p>
+<a href="#" class="shopnow">
+<div class="shop-box">
+<div class="shopnow-txt"><p><input type="submit" value="order now"></p></div>
+<div class="icon-next"></div>
+</div>
+</a>
+<a href="" class="condi">&#42; see conditions</a>    
+</div>
+</div>
+<script src="js/reco.buy.js"></script>
+<script src="js/reco.js"></script>     
+<div class="footer"></div>    
+</div>
+</div>    
+
+<script>
+(function() {
+"use strict";
+var toggles = document.querySelectorAll(".hamburger");
+for (var i = toggles.length - 1; i >= 0; i--) {
+var toggle = toggles[i];
+toggleHandler(toggle);
+};
+function toggleHandler(toggle) {
+toggle.addEventListener( "click", function(e) {
+e.preventDefault();
+(this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+});
+}
+})();
+</script>
+
+
+</div>
+</body>
+</html>
